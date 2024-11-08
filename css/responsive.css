@@ -1,0 +1,118 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu ul li {
+        margin-left: 29px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-left: 18px;
+    }
+    .featurs-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .slider-area h2{
+        font-size: 45px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .single-service {
+        padding: 15px 15px;
+    }
+    .single-slider{
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        margin-top: 40px;
+    }
+    .single-slider{
+        background-size: cover;
+        background-position: center;
+    }
+    .single-slider h2 {
+        font-size: 40px;
+    }
+    .featurs-area {
+        margin-top: 70px;
+    }
+    .about-img {
+        margin-top: 50px;
+    }
+    .from input {
+        width: 24%;
+    }
+    .single-service {
+        margin: 10px 0;
+    }
+    .service-area {
+        padding: 70px 0;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .logo img {
+        margin-top: 40px;
+    }
+    .single-slider{
+        background-size: cover;
+        background-position: center;
+    }
+    .single-slider h2 {
+        font-size: 30px;
+    }
+    .about-img img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .from input {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .single-service {
+        margin: 10px 0;
+    }
+    .service-area {
+        padding: 70px 0;
+    }
+    .from button {
+        margin-top: 15px;
+    }
+    .single-feature {
+        border-bottom: 5px solid #fff;
+    }
+    .counter-wraper {
+        margin-bottom: 38px;
+    }
+    .blog-wrapper {
+        margin-top: 30px;
+    }
+    .testimonial-area {
+        background-size: cover;
+        background-position: center;
+    }
+    .featurs-area {
+        margin-top: 70px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
